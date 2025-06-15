@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet"href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"> code campus</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="auth-buttons">
+                    <a href="#" class="btn btn-primary">Login</a>
+                    <a href="#" class="btn btn-secondary">Sign Up</a>
+                </li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Unlock Your Potential with Online Learning</h1>
+                <p>Explore thousands of courses from experts worldwide. Learn at your own space, on any device.</p>
+                <div class="hero-actions">
+                    <a href="#courses" class="btn btn-primary btn-large">Browse Courses</a>
+                    <a href="#" class="btn btn-secondary btn-large">How It Works</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400?text=Online+Learning" alt="Online Learning Illustration">
+            </div>
+        </section>
+
+        <section id="courses" class="courses-section">
+            <h2>Featured Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIF.sVc60eQKP1zUFOD%2f%2bRQfuA&pid=Api&P=0&h=180" alt="Web Development Course">
+                    <div class="card-content">
+                        <h3>Web Development Bootcamp</h3>
+                        <p class="instructor">John Doe</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> (4.5)
+                        </div>
+                        <p class="price">$49.99</p>
+                        <a href="#" class="btn btn-tertiary">Enroll Now</a>
+                    </div>
+                </div>
+                     <div class="course-card">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.Vu1Mx5xoMIxKhC8lBsoJuwHaD4&pid=Api&P=0&h=180" alt="Data Science Course">
+                    <div class="card-content">
+                        <h3>React</h3>
+                        <p class="instructor"> Jordan walke</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> (4.0)
+                        </div>
+                        <p class="price">$69.99</p>
+                        <a href="#" class="btn btn-tertiary">Enroll Now</a>
+                    </div>
+                </div>
+
+
+                <div class="course-card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.91MYfGSrNOrHXmgvOz5ewAHaHX&pid=Api&P=0&h=180" alt="Data Science Course">
+                    <div class="card-content">
+                        <h3>Data Science for Beginners</h3>
+                        <p class="instructor">Jane Smith</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i> (4.0)
+                        </div>
+                        <p class="price">$59.99</p>
+                        <a href="#" class="btn btn-tertiary">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.IXDPCr1wIlM_OqEKu_kaDAHaFj&pid=Api&P=0&w=300&h=300" alt="Graphic Design Course">
+                    <div class="card-content">
+                        <h3>Mastering Graphic Design</h3>
+                        <p class="instructor">Emily White</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> (5.0)
+                        </div>
+                        <p class="price">$39.99</p>
+                        <a href="#" class="btn btn-tertiary">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.TWfapM35pBMoQI99fmskHQAAAA&pid=Api&P=0&h=180" alt="Digital Marketing Course">
+                    <div class="card-content">
+                        <h3>Introduction to Digital Marketing</h3>
+                        <p class="instructor">Michael Brown</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i> (3.5)
+                        </div>
+                        <p class="price">$29.99</p>
+                        <a href="#" class="btn btn-tertiary">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all-courses">
+                <a href="#" class="btn btn-primary">View All Courses</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>Why Choose code campus?</h2>
+            <div class="about-grid">
+                <div class="about-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Experts</h3>
+                    <p>Learn from industry leaders and passionate educators from around the world.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Flexible Learning</h3>
+                    <p>Access courses anytime, anywhere, on any device. Learn at your own pace.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Accredited Certificates</h3>
+                    <p>Earn certificates recognized by top companies and boost your career.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>Interactive Community</h3>
+                    <p>Engage with fellow learners and instructors in our vibrant online community.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta" class="cta-section">
+            <h2>Ready to Start Your Learning Journey?</h2>
+            <p>Join code campus today and take the first step towards a brighter future!</p>
+            <a href="#" class="btn btn-primary btn-large">Get Started Free</a>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>code campus</h3>
+                <p>Your pathway to knowledge and skills.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect With Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LearnSphere. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
